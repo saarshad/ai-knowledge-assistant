@@ -1,12 +1,14 @@
-# Terraform working directories and state
+# Terraform working directories
 **/.terraform/
+
+# Terraform state and saved plans
 *.tfstate
 *.tfstate.*
 *.tfplan
 crash.log
 crash.*.log
 
-# Local secrets and virtual environments
+# Local secrets and Python environments
 .env
 .env.*
 .venv/
