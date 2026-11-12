@@ -1,0 +1,22 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform/
+.terraform.lock.hcl
+crash.log
+
+# Ansible
+*.retry
+ansible/inventories/*/group_vars/all/vault.yml
+
+# AWS and secrets
+.env
+*.pem
+*.key
+credentials
+config
+
+# Operating system
+.DS_Store
+Thumbs.db
