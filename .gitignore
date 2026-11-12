@@ -1,22 +1,21 @@
-# Terraform
+# Terraform working directories and state
+**/.terraform/
 *.tfstate
 *.tfstate.*
 *.tfplan
-.terraform/
-.terraform.lock.hcl
 crash.log
+crash.*.log
+
+# Local secrets and virtual environments
+.env
+.env.*
+.venv/
+*.pem
+*.key
 
 # Ansible
 *.retry
-ansible/inventories/*/group_vars/all/vault.yml
 
-# AWS and secrets
-.env
-*.pem
-*.key
-credentials
-config
-
-# Operating system
+# Operating system files
 .DS_Store
 Thumbs.db
