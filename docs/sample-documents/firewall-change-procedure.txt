@@ -1,0 +1,36 @@
+SAMPLE DOCUMENT — FOR LEARNING ONLY
+Not an actual organisational policy.
+
+Title: Firewall Change Procedure
+Version: 1.0
+
+Purpose
+Describe the approval process for a production firewall change.
+
+Required information
+Every change request must include:
+- Business justification.
+- Source and destination addresses.
+- Required ports and protocols.
+- Implementation steps.
+- Risk assessment.
+- Rollback steps.
+- Validation steps.
+
+Approvals
+A production firewall change requires:
+- Peer review by another network engineer.
+- Approval and review by security team.
+- Approval from the service owner.
+- Change manager approval.
+
+Implementation
+Changes must take place during the approved maintenance window.
+
+Validation
+The implementing engineer must confirm the required connection
+works and that unintended access has not been introduced.
+
+Escalation
+If validation fails, follow the rollback plan and troubleshooting steps and notify the
+change manager.
