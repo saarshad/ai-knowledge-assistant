@@ -1,5 +1,5 @@
 # AI Knowledge Assistant - AWS Learning Project
-# Hello Krishna
+
 
 This repository provisions a secure AWS foundation for an AI-powered
 enterprise knowledge assistant using Terraform and Ansible.
